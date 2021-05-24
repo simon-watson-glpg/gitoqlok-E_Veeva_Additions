@@ -1,0 +1,23 @@
+///$tab e_v_user_territory
+User2TerritoryAssociation:
+LOAD 
+	Id as user_territory_id,
+	UserId as user_id,
+	Territory2Id as territory_id,
+	IsActive as is_active,
+	RoleInTerritory2,
+	LastModifiedDate as last_modified_date,
+	LastModifiedById as last_modified_by_id,
+	SystemModstamp as systemmodstamp
+;
+
+SELECT 
+	Id,
+	UserId,
+	Territory2Id,
+	IsActive,
+	RoleInTerritory2,
+	LastModifiedDate,
+	LastModifiedById,
+	SystemModstamp
+FROM UserTerritory2Association;

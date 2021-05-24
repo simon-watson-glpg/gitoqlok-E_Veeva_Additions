@@ -1,0 +1,6 @@
+///$tab e_v_MC_Cycle_Channel_Plan
+e_v_mc_channel_plan:
+LOAD *;
+
+SELECT *
+FROM MC_Cycle_Plan_Channel_vod__c;

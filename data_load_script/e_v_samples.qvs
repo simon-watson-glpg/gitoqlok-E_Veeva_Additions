@@ -1,0 +1,4 @@
+///$tab e_v_samples
+e_v_samples:
+LOAD *;
+SELECT * FROM Sample_Order_Transaction_Audit_vod__c;

@@ -1,0 +1,39 @@
+///$tab e_v_response_detail
+e_v_response_detail:
+LOAD *;
+SELECT * FROM Question_Response_vod__c;
+
+SELECT Id,
+	IsDeleted,
+	Name,
+	CurrencyIsoCode,
+	RecordTypeId,
+	CreatedDate,
+	CreatedById,
+	LastModifiedDate,
+	LastModifiedById,
+	SystemModstamp,
+	MayEdit,
+	IsLocked,
+	Survey_Target_vod__c,
+	Answer_Choice_vod__c,
+	Date_vod__c,
+	Datetime_vod__c,
+	External_ID_vod__c,
+	Mobile_ID_vod__c,
+	Number_vod__c,
+	Order_vod__c,
+	Question_Text_vod__c,
+	Required_vod__c,
+	Response_Hash_vod__c,
+	Response_vod__c,
+	Score_vod__c,
+	Survey_Question_vod__c,
+	Text_vod__c,
+	Type_vod__c,
+	Decimal_vod__c,
+	Max_Score_vod__c,
+	Condition_vod__c,
+	Inactive_Condition_vod__c,
+	Source_ID_vod__c
+FROM Question_Response_vod__c;

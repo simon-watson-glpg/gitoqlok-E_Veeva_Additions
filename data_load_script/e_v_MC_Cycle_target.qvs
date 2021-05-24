@@ -1,0 +1,6 @@
+///$tab e_v_MC_Cycle_target
+e_v_mc_target:
+LOAD *;
+
+SELECT *
+FROM MC_Cycle_Plan_Target_vod__c;

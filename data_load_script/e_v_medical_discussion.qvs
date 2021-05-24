@@ -1,0 +1,4 @@
+///$tab e_v_medical_discussion
+e_v_medical_discussion:
+LOAD *;
+SELECT * FROM Medical_Discussion_vod__c;

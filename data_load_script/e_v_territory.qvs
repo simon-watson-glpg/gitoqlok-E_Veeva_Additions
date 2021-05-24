@@ -1,0 +1,49 @@
+///$tab e_v_territory
+// e_v_territory:
+// LOAD *;
+
+// SELECT Id,
+// 	Name,
+// 	ParentTerritoryId,
+// 	Description,
+// 	AccountAccessLevel,
+// 	OpportunityAccessLevel,
+// 	CaseAccessLevel,
+// 	ContactAccessLevel,
+// 	ForecastUserId,
+// 	MayForecastManagerShare,
+// 	CurrencyIsoCode,
+// 	RestrictOpportunityTransfer,
+// 	DeveloperName,
+// 	LastModifiedDate,
+// 	LastModifiedById,
+// 	SystemModstamp,
+// 	Master_Align_Id_vod__c
+// FROM Territory;
+
+e_v_territory:
+LOAD 
+    Id 
+    ,Name 
+    ,ParentTerritory2Id as ParentTerritoryId 
+    ,Description 
+    ,LastModifiedDate
+;
+SELECT Id,
+	Name,
+	Territory2TypeId,
+	Territory2ModelId,
+	ParentTerritory2Id,
+	Description,
+	ForecastUserId,
+	AccountAccessLevel,
+	OpportunityAccessLevel,
+	CaseAccessLevel,
+	ContactAccessLevel,
+	CurrencyIsoCode,
+	LastModifiedDate,
+	LastModifiedById,
+	SystemModstamp,
+	DeveloperName,
+	Master_Align_Id_vod__c
+FROM Territory2;

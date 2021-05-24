@@ -1,0 +1,39 @@
+///$tab e_v_multichannel_consent
+e_v_multichannel_consent_addition:
+LOAD *;
+
+SELECT 
+	Id,
+	IsDeleted,
+	Name,
+	CurrencyIsoCode,
+	RecordTypeId,
+	CreatedDate,
+	CreatedById,
+	LastModifiedDate,
+	LastModifiedById,
+	SystemModstamp,
+	MayEdit,
+	IsLocked,
+	LastViewedDate,
+	LastReferencedDate,
+	Account_vod__c,
+	Capture_Datetime_vod__c,
+	Channel_Value_vod__c,
+	Detail_Group_vod__c,
+	External_ID_vod__c,
+	Last_Device_vod__c,
+	Mobile_ID_vod__c,
+	Opt_Expiration_Date_vod__c,
+	Opt_Type_vod__c,
+	Optout_Event_Type_vod__c,
+	Product_vod__c,
+	Signature_Datetime_vod__c,
+	Signature_ID_vod__c,
+	Signature_vod__c,
+	Consent_Line_vod__c,
+	Content_Type_vod__c,
+	Channel_Source_vod__c,
+	GLPG_Consent_Source__c,
+	CDP_Consent_ID__c
+FROM Multichannel_Consent_vod__c;

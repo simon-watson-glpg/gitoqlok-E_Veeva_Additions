@@ -1,0 +1,6 @@
+///$tab e_v_MC_Cylce_plan
+e_v_mc_plan:
+LOAD *;
+
+SELECT *
+FROM MC_Cycle_Plan_vod__c;

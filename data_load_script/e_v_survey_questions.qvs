@@ -1,0 +1,29 @@
+///$tab e_v_survey_questions
+e_v_survey_questions:
+  LOAD *;
+
+SELECT Id,
+	IsDeleted,
+	Name,
+	CurrencyIsoCode,
+	RecordTypeId,
+	CreatedDate,
+	CreatedById,
+	LastModifiedDate,
+	LastModifiedById,
+	SystemModstamp,
+	MayEdit,
+	IsLocked,
+	Survey_vod__c,
+	Answer_Choice_vod__c,
+	External_ID_vod__c,
+	Max_Score_vod__c,
+	Min_Score_vod__c,
+	Order_vod__c,
+	Question_vod__c,
+	Required_vod__c,
+	Text_vod__c,
+	Question_Number_vod__c,
+	Condition_vod__c,
+	Source_ID_vod__c
+FROM Survey_Question_vod__c;

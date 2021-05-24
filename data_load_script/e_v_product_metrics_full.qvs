@@ -1,0 +1,42 @@
+///$tab e_v_product_metrics_full
+e_v_product_metric:
+LOAD *;
+SELECT 
+	Id,
+	IsDeleted,
+	Name,
+	CurrencyIsoCode,
+	CreatedDate,
+	CreatedById,
+	LastModifiedDate,
+	LastModifiedById,
+	SystemModstamp,
+	MayEdit,
+	IsLocked,
+	LastViewedDate,
+	LastReferencedDate,
+	Account_vod__c,
+	Awareness__c,
+	Selling_Stage__c,
+	Formulary_Status_QS__c,
+	Movement__c,
+	Products_vod__c,
+	Segment__c,
+	Speaker_Skills__c,
+	Investigator_Readiness__c,
+	Engagements__c,
+	Mobile_ID_vod__c,
+	External_ID_vod__c,
+	Decile__c,
+	Adoption_Level__c,
+	Detail_Group_vod__c,
+	Clinical_Trials_Expertise_QS__c,
+	Investigator_smb__c,
+	Formulary_Inclusion_Steps_QS__c,
+	Potential_QS__c,
+	JAK_MOA__c,
+	GLPG_Attitudinal_Segmentation__c,
+	GLPG_KOL_Tiering__c,
+	GLPG_Medical_Knowledge_Ladder__c
+FROM 
+	Product_Metrics_vod__c;

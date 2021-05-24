@@ -1,0 +1,4 @@
+///$tab e_v_product_full
+e_v_product_full:
+LOAD *;
+SELECT * FROM Product_vod__c;

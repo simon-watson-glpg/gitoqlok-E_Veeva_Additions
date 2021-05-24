@@ -1,0 +1,6 @@
+///$tab e_v_MC_Cycle_vod__c
+e_v_mc_cycle:
+LOAD *;
+
+SELECT *
+FROM MC_Cycle_vod__c;
